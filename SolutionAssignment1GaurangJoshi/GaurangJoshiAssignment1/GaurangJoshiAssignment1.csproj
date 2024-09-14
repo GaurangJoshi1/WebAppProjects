@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD600BF8-522F-4C1D-AA39-3D3450EEB65C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GaurangJoshiAssignment1</RootNamespace>
+    <AssemblyName>GaurangJoshiAssignment1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="P10_NumberIsPrimeOrNot.cs" />
+    <Compile Include="P11_SumOfPositiveNumbers.cs" />
+    <Compile Include="P12_FibonacciSeries.cs" />
+    <Compile Include="P13_PrintAllAlphabets.cs" />
+    <Compile Include="P14_FindTheDigitCountOfNum.cs" />
+    <Compile Include="P15_ReverseTheDigit.cs" />
+    <Compile Include="P16_PalindromeOrNot.cs" />
+    <Compile Include="P17_FindVowelsAndConsonants.cs" />
+    <Compile Include="P18_HalfPyramid.cs" />
+    <Compile Include="P19_HalfPyramidUsingNumbers.cs" />
+    <Compile Include="P1_SwapTwoNumbers.cs" />
+    <Compile Include="P20_HalfInvertedPyramid.cs" />
+    <Compile Include="P21_HalfInvertedPyramidUsingNumbers.cs" />
+    <Compile Include="P22_BasicCalculatorUsingSwitchCase.cs" />
+    <Compile Include="P23_StringIsAnagramOrNot.cs" />
+    <Compile Include="P24_ReadEachCharacterInString.cs" />
+    <Compile Include="P25_CalculateSimpleInterest.cs" />
+    <Compile Include="P26_ReverseTheString.cs" />
+    <Compile Include="P27_FindUniqueCharactersInString.cs" />
+    <Compile Include="P28_DuplicateCharFromString.cs" />
+    <Compile Include="P2_NumberIsEvenOrOdd.cs" />
+    <Compile Include="P3_VowelOrConsonant.cs" />
+    <Compile Include="P4_LargestAmong3Numbers.cs" />
+    <Compile Include="P5_SmallestAmong3numbers.cs" />
+    <Compile Include="P6_RepetitiveCharFromString.cs" />
+    <Compile Include="P7_LeapYearOrNot.cs" />
+    <Compile Include="P8_NumberIsPositiveOrNegative.cs" />
+    <Compile Include="P9_GivenCharIsAlphabetOrNot.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
